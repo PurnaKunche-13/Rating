@@ -589,3 +589,28 @@ tbody tr:last-child td {
     gap: 8px;
   }
 }
+
+/* --- Filters --- */
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filters select,
+.filters button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filters button {
+  background: linear-gradient(135deg, #d4a843, #f0a830);
+  color: black;
+  font-weight: bold;
+}
